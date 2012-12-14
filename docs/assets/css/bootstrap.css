@@ -228,6 +228,9 @@ body {
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
+  background-image: url("../img/tower.png");
+  background-position: right 140px;
+  background-repeat: no-repeat;
 }
 
 a {
