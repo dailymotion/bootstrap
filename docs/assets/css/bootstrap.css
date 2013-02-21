@@ -228,7 +228,7 @@ body {
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
-  background-image: url("../img/tower.png");
+  background-image: url("/images/bootstrap/tower.png");
   background-position: right 140px;
   background-repeat: no-repeat;
 }
@@ -2285,7 +2285,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
+  background-image: url("/images/bootstrap/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }
@@ -2309,7 +2309,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("../img/glyphicons-halflings-white.png");
+  background-image: url("/images/bootstrap/glyphicons-halflings-white.png");
 }
 
 .icon-glass {
@@ -4427,7 +4427,7 @@ input[type="submit"].btn.btn-mini {
   height: 20px;
   padding: 0 .3em;
   margin: 0;
-  background-image: url("../img/dailymotion.png");
+  background-image: url("/images/bootstrap/dailymotion.png");
   background-repeat: no-repeat;
   content: "";
 }
