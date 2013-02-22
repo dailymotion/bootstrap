@@ -36,3 +36,4 @@ nbproject
 node_modules
 dist
 .bootstrap
+docs/assets/
