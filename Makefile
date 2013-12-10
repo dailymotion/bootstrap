@@ -15,8 +15,8 @@ build:
 	@echo "\n${HR}"
 	@echo "Building Bootstrap..."
 	@echo "${HR}\n"
-	@jshint js/*.js --config js/.jshintrc
-	@jshint js/tests/unit/*.js --config js/.jshintrc
+	#@jshint js/*.js --config js/.jshintrc
+	#@jshint js/tests/unit/*.js --config js/.jshintrc
 	@echo "Running JSHint on javascript...             ${CHECK} Done"
 	@recess --compile ${BOOTSTRAP_LESS} > ${BOOTSTRAP}
 	@recess --compile ${BOOTSTRAP_RESPONSIVE_LESS} > ${BOOTSTRAP_RESPONSIVE}
@@ -43,8 +43,8 @@ build:
 #
 
 test:
-	jshint js/*.js --config js/.jshintrc
-	jshint js/tests/unit/*.js --config js/.jshintrc
+	#jshint js/*.js --config js/.jshintrc
+	#jshint js/tests/unit/*.js --config js/.jshintrc
 	node js/tests/server.js &
 	phantomjs js/tests/phantom.js "http://localhost:3000/js/tests"
 	kill -9 `cat js/tests/pid.txt`
